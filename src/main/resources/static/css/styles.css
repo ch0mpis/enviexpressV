@@ -1,0 +1,44 @@
+:root{
+--brand: #0d6efd; /* color primario */
+}
+
+
+body{
+font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+background-color: #f8f9fa;
+color: #222;
+}
+
+
+.navbar-brand{
+color: var(--brand) !important;
+}
+
+
+header .lead{
+color: #556;
+}
+
+
+.card img{
+object-fit: cover;
+height: 100%;
+}
+
+
+/* Ajustes responsive más compactos */
+@media (max-width: 767px){
+header{ padding-top: 2rem; padding-bottom: 2rem; }
+}
+
+
+/* Botones y pequeños detalles */
+.btn-primary{
+background-color: var(--brand);
+border-color: var(--brand);
+}
+
+
+footer{
+background: transparent;
+}
